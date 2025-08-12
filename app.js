@@ -1,49 +1,3 @@
-/* let titulo = document.querySelector('h1');
-titulo.innerHTML = "Jogo do número secreto"; */
-/* let paragrafo = document.querySelector('p');
-paragrafo.innerHTML = 'Escolha um número de 1 a 10'; */
-/*Ex1
-function exibirOla() {
-  console.log("Olá, mundo!");
-}
-
-exibirOla();
-
-//Ex2
-function exibirNome(nome){
-    console.log(`Olá, ${nome}!`);
-
-};
-exibirNome("Pedro");
-
-//ex3
-function calcularDobro(numero){
-    return numero * 2
-}
-let resultadoDobro = calcularDobro(15);
-console.log(resultadoDobro);
-
-//ex4
-function calcularMedia(a, b, c){
-     return (a + b + c) / 3;
-}
-let media = calcularMedia(6 ,9 , 8);
-console.log(media);
-
-//ex5
-function encontrarMaior(a, b ){
-    return a > b ? a : b;
-}
-let maiorNumero = encontrarMaior( 17, 5);
-console.log(maiorNumero);
-
-//Ex6
-function quadrado(numero){
-    return numero * numero;
-}
-let resultado = quadrado(7);
-console.log(resultado); */
-
 let listaDeNumerosSorteados = [];
 let numeroLimite = 10;
 let numeroSecreto = gerarNumeroAleatorio();
@@ -115,4 +69,5 @@ function reiniciarJogo(){
     tentativas = 1;
     exibirMensagemInicial();
     document.getElementById('reiniciar').setAttribute('disabled', true);
+
 }
